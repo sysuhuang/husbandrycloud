@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextBreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="品种" />
+
+    <EditText
+        android:id="@+id/editTextBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="出生日期" />
+
+    <EditText
+        android:id="@+id/editTextHealthRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="健康记录" />
+
+    <ImageView
+        android:id="@+id/imageViewLivestock"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/buttonSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择图片" />
+
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上传数据" />
+</LinearLayout>
